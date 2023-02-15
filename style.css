@@ -5,13 +5,13 @@
 
 #titulo {
     font-family: sans-serif;
-    color: #380861;
+    color: #181cff;
     margin-left: 7%;
 }
 
 #subtitulo {
     font-family: sans-serif;
-    color: #380861;
+    color:  #180374;
     margin-left: 10%;
 }
 
@@ -20,10 +20,11 @@ fieldset {
 }
 
 body {
-    background-color: #f0f8ff;
+    background-image: url(cropped-1366-768-1085883.jpg);
+    background-color: #00060a;
     font-family: sans-serif;
     font-size: 1em;
-    color: #380861;
+    color: #0015ff;
     margin-left: 36%;
     margin-top: 2%;
     justify-content: center;
@@ -39,7 +40,7 @@ input, select, textarea, button {
 
 .campo label {
     margin-bottom: 0.2em;
-    color: #380861;
+    color: #0400fa;
     display: block;
 }
 
@@ -50,7 +51,7 @@ fieldset.grupo .campo {
 
 .campo input[type="text"], .campo input[type="email"], .campo select, .campo textarea {
     padding: 0.2em;
-    border: 1px solid #59429d;
+    border: 1px solid #5b42a7;
     box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.2);
     display: block;
 }
@@ -73,9 +74,9 @@ fieldset.grupo .campo {
     box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.2);
     text-shadow: 1px 1px 1px  rgba(0, 0, 0, 0.5);
     position: absolute;
-    top: 90%;
+    top: 95%;
     left: 50%;
-    margin-right: -50%;
+    margin-right: -40%;
     transform: translate(-50%, -50%);
 }
 
