@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Formulario</title>
+    
+</head>
+
+<body>
+
+    <div>
+        <h1 id="titulo">Cadastro de Elos</h1>
+        <p id="subtitulo">Complete suas informações</p>
+        <br>
+    </div>
+
+    <form>
+        <fieldset class="grupo">
+            <div class="campo">
+                <label for="nome"><strong>nome</strong></label>
+                <input type="text" name="nome" id="nome" required>
+            </div>
+
+            <div class="campo">
+                <label for="sobrenome"><strong>sobrenome</strong></label>
+                <input type="text" name="sobrenome" id="sobrenome" required>
+            </div>
+        </fieldset>
+
+        <div class="campo">
+            <label for="email"><strong>email</strong></label>
+            <input type="email" name="email" id="email" required>
+        </div>
+
+        <div class="campo">
+            <label><strong>Qual Elo você esta?</strong></label>
+            <label>
+                <input type="radio" name="devweb" value="Front-end" checked>Platina
+            </label>
+
+            <label for="">
+                <input type="radio" name="devweb" value="Back-end">Diamante
+            </label>
+
+            <label for="">
+                <input type="radio" name="devweb" value="Fullstack">Mestre
+            </label>
+
+        </div>
+
+        <div class="campo">
+            <label for=""><strong>Game Play</strong></label>
+            <select name="" id="senioridade">
+                <option selected disabled value="" >Select</option>
+                <option value="">iniciante</option>
+                <option value="">medio</option>
+                <option value="">Brabo</option>
+            </select>
+        </div>
+
+        <fieldset class="grupo">
+            <div id="check">
+                <label> <strong>Selecione as rotas que você sabe jogar</strong></label><br><br>
+                <input type="checkbox" name="tecnologia1" id="tecnologia1" value="HTML">
+                <label for="tecnologia1">ADC</label>
+                <input type="checkbox" name="tecnologia2" id="tecnologia2">
+                <label for="tecnologia2">SUP</label>
+                <input type="checkbox" name="tecnologia3" id="tecnologia3">
+                <label for="tecnologia3">JUNGLE</label>
+                <input type="checkbox" name="tecnologia4" id="tecnologia4">
+                <label for="tecnologia4">SOLO</label>
+                <input type="checkbox" name="tecnologia5" id="tecnologia5">
+                <label for="tecnologia5">TODAS</label>
+                <input type="checkbox" name="tecnologia6" id="tecnologia6">
+                <label for="tecnologia6">SOU UM MINION</label>
+                <input type="checkbox" name="tecnologia7" id="tecnologia7">
+                <label for="tecnologia7">O QUE É ROTA?</label>
+
+            </div>
+        </fieldset>
+
+        <div class="campo">
+            <br>
+            <label for=""><strong>Conte um pouco da sua experiencia:</strong></label>
+            <textarea name="experiencia" id="experiencia" rows="6" style="width: 26em;"></textarea>
+        </div>
+
+        <button class="botao" type="submit">Concluido</button>
+
+    </form>
+
+</body>
+
+</html>
